@@ -70,7 +70,6 @@ public class Getrequestsample {
 		JsonNode jsonresponse = objmapper.readTree(apiresponse.body());
 		String jsonprettyresponse=jsonresponse.toPrettyString();
 		System.out.println(jsonprettyresponse);
-		//secondcommit
 	}
 
 }
