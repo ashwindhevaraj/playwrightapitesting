@@ -16,6 +16,7 @@ import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.options.RequestOptions;
 
 public class Getrequestsample {
+	//class 1-where we create a straight forward request of get and verifying response
 	Playwright playwright;
 	APIRequest apirequest;
 	APIRequestContext context;

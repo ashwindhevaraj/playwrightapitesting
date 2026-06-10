@@ -52,7 +52,7 @@ public class Requesttwo {
 		Assert.assertEquals(resheaders.get("content-type"),"application/json; charset=utf-8");
 		Assert.assertEquals(resheaders.get("transfer-encoding"),"chunked");
 		Assert.assertEquals(resheaders.get("connection"),"keep-alive");
-		
+		//this is class 2- verifying after dispose- how application behaves
 		apiresponse.dispose();
 		int statuscode1 = apiresponse.status();
 		System.out.println(statuscode1);
