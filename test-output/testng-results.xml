@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-10T21:08:52 IST" name="Default suite" finished-at="2026-06-10T21:09:09 IST" duration-ms="16890">
+  <suite started-at="2026-06-11T07:58:02 IST" name="Default suite" finished-at="2026-06-11T08:00:55 IST" duration-ms="172449">
     <groups>
     </groups>
-    <test started-at="2026-06-10T21:08:52 IST" name="Default test" finished-at="2026-06-10T21:09:09 IST" duration-ms="16890">
-      <class name="com.qa.test.Pojoclassimplementation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.Pojoclassimplementation@235834f2]" started-at="2026-06-10T21:08:52 IST" name="setup" finished-at="2026-06-10T21:09:05 IST" duration-ms="12447" status="PASS">
+    <test started-at="2026-06-11T07:58:02 IST" name="Default test" finished-at="2026-06-11T08:00:55 IST" duration-ms="172449">
+      <class name="com.qa.test.Pojoimprovements">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.Pojoimprovements@5656be13]" started-at="2026-06-11T07:58:02 IST" name="setup" finished-at="2026-06-11T08:00:54 IST" duration-ms="171201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="requesttwochecktest()[pri:0, instance:com.qa.test.Pojoclassimplementation@235834f2]" started-at="2026-06-10T21:09:05 IST" name="requesttwochecktest" finished-at="2026-06-10T21:09:09 IST" duration-ms="4275" status="PASS">
+        <test-method signature="requesttwochecktest()[pri:0, instance:com.qa.test.Pojoimprovements@5656be13]" started-at="2026-06-11T08:00:54 IST" name="requesttwochecktest" finished-at="2026-06-11T08:00:55 IST" duration-ms="1029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- requesttwochecktest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.Pojoclassimplementation@235834f2]" started-at="2026-06-10T21:09:09 IST" name="teardown" finished-at="2026-06-10T21:09:09 IST" duration-ms="67" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.test.Pojoimprovements@5656be13]" started-at="2026-06-11T08:00:55 IST" name="teardown" finished-at="2026-06-11T08:00:55 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.qa.test.Pojoclassimplementation -->
+      </class> <!-- com.qa.test.Pojoimprovements -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
