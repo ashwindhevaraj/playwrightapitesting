@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.Delete.Deletevalidationtest">
+      <class name="com.qa.token.Reusegeneratetoken">
         <methods>
           <include name="requesttwochecktest"/>
+          <include name="deletetest"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.qa.Delete.Deletevalidationtest -->
+      </class> <!-- com.qa.token.Reusegeneratetoken -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
